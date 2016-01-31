@@ -17,6 +17,7 @@
   </scripts>
   <objects name="objects">
     <object>objects\obj_PlayerCharacter</object>
+    <object>objects\obj_human</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
