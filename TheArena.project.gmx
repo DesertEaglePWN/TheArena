@@ -7,7 +7,8 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_Player</sprite>
-    <sprite>sprites\spr_human</sprite>
+    <sprite>sprites\spr_Human</sprite>
+    <sprite>sprites\spr_Spike_Trap</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -20,6 +21,7 @@
     <object>objects\obj_Human</object>
     <object>objects\obj_Charge</object>
     <object>objects\obj_Stomp</object>
+    <object>objects\obj_Spike_Trap</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
