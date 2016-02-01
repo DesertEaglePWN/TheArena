@@ -22,6 +22,7 @@
     <object>objects\obj_Charge</object>
     <object>objects\obj_Stomp</object>
     <object>objects\obj_Spike_Trap</object>
+    <object>objects\obj_Enemy_Controller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
