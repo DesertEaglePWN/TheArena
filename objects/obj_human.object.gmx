@@ -35,32 +35,51 @@ movementSpeed = 5; // define base movement speed
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
-        <id>105</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move_point</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>obj_PlayerCharacter.x</string>
+            <kind>1</kind>
+            <string>// Reset the speed of the Human
+speed += 20;
+</string>
           </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
           <argument>
-            <kind>0</kind>
-            <string>obj_PlayerCharacter.y</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>5</string>
+            <kind>1</kind>
+            <string>image_angle = direction;
+
+mp_potential_step( obj_PlayerCharacter.x, obj_PlayerCharacter.y, 2, false);
+</string>
           </argument>
         </arguments>
       </action>
@@ -170,8 +189,8 @@ movementSpeed = 5; // define base movement speed
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if speed&gt;0
-speed-=0.25
+            <string>//if speed&gt;0
+//speed-=0.25
 </string>
           </argument>
         </arguments>
@@ -204,21 +223,30 @@ speed-=0.25
       </action>
       <action>
         <libid>1</libid>
-        <id>104</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_vspeed</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>-5</string>
+            <kind>1</kind>
+            <string>// Go flying back for a bit when you hit the player character.
+speed = -20;
+alarm[0] = 5;
+
+
+// Physcis code, not used at the moment
+//pd = point_direction( other.x, other.y, x, y);
+//phy_speed_x += lengthdir_x( 10, pd );
+//phy_speed_y += lengthdir_y( 10, pd );
+</string>
           </argument>
         </arguments>
       </action>
@@ -244,7 +272,7 @@ speed-=0.25
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>-10</string>
           </argument>
         </arguments>
       </action>
@@ -260,6 +288,6 @@ speed-=0.25
   <PhysicsObjectAngularDamping>0.100000001490116</PhysicsObjectAngularDamping>
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
-  <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
+  <PhysicsObjectKinematic>-1</PhysicsObjectKinematic>
   <PhysicsShapePoints/>
 </object>

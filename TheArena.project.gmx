@@ -11,6 +11,7 @@
     <sprite>sprites\spr_Spike_Trap</sprite>
     <sprite>sprites\spr_Stomp</sprite>
     <sprite>sprites\spr_Punch</sprite>
+    <sprite>sprites\spr_psyTest</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -28,6 +29,7 @@
     <object>objects\obj_Controller_Life</object>
     <object>objects\obj_Controller</object>
     <object>objects\obj_Punch</object>
+    <object>objects\obj_psytest</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
