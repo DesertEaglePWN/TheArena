@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-10000</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -11,26 +11,18 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>201</id>
+        <id>701</id>
         <kind>0</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
+        <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_create_object</functionname>
+        <functionname>action_set_score</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
-          <argument>
-            <kind>10</kind>
-            <object>obj_Human</object>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>random(room_width)</string>
-          </argument>
           <argument>
             <kind>0</kind>
             <string>0</string>
@@ -39,37 +31,13 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>301</id>
+        <id>721</id>
         <kind>0</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
+        <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>50</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>301</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
+        <functionname>action_set_health</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -79,6 +47,76 @@
             <kind>0</kind>
             <string>100</string>
           </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="9">
+      <action>
+        <libid>1</libid>
+        <id>332</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_end_game</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>524</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_color</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>13</kind>
+            <string>16777215</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>511</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_draw_rectangle</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>view_xview+5</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>view_yview+5</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>view_xview+125</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>view_yview+45</string>
+          </argument>
           <argument>
             <kind>4</kind>
             <string>0</string>
@@ -87,67 +125,33 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>301</id>
+        <id>524</id>
         <kind>0</kind>
-        <userelative>-1</userelative>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
+        <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
+        <functionname>action_color</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>150</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
+            <kind>13</kind>
             <string>0</string>
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="2" enumb="2">
       <action>
         <libid>1</libid>
-        <id>201</id>
+        <id>511</id>
         <kind>0</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_create_object</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>10</kind>
-            <object>obj_Human</object>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>random(room_width)</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>16</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>301</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
+        <functionname>action_draw_rectangle</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -155,61 +159,19 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>50</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>2</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="1">
-      <action>
-        <libid>1</libid>
-        <id>201</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_create_object</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>10</kind>
-            <object>obj_Human</object>
+            <string>view_xview+5</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>view_yview+5</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>16</string>
+            <string>view_xview+125</string>
           </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>301</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
           <argument>
             <kind>0</kind>
-            <string>50</string>
+            <string>view_yview+45</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -217,45 +179,43 @@
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
-        <id>201</id>
+        <id>703</id>
         <kind>0</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
+        <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_create_object</functionname>
+        <functionname>action_draw_score</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>10</kind>
-            <object>obj_Human</object>
+            <kind>0</kind>
+            <string>view_xview+10</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(room_width)</string>
+            <string>view_yview+28</string>
           </argument>
           <argument>
-            <kind>0</kind>
-            <string>20</string>
+            <kind>1</kind>
+            <string>Score: </string>
           </argument>
         </arguments>
       </action>
       <action>
         <libid>1</libid>
-        <id>301</id>
+        <id>723</id>
         <kind>0</kind>
         <userelative>-1</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
+        <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
+        <functionname>action_draw_health</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -263,7 +223,23 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>50</string>
+            <string>view_xview+10</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>view_yview+10</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>view_xview+120</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>view_yview+25</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
           </argument>
           <argument>
             <kind>4</kind>

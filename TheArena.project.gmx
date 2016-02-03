@@ -9,6 +9,7 @@
     <sprite>sprites\spr_Player</sprite>
     <sprite>sprites\spr_Human</sprite>
     <sprite>sprites\spr_Spike_Trap</sprite>
+    <sprite>sprites\spr_Stomp</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -23,6 +24,8 @@
     <object>objects\obj_Stomp</object>
     <object>objects\obj_Spike_Trap</object>
     <object>objects\obj_Enemy_Controller</object>
+    <object>objects\obj_Controller_Life</object>
+    <object>objects\obj_Controller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
