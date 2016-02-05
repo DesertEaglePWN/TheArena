@@ -25,12 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Follow the player and point at the mouse
-
-if ( instance_exists( obj_PlayerCharacter ) ) {
-    x = obj_PlayerCharacter.x;
-    y = obj_PlayerCharacter.y - 50;
-}
+            <string>// point at the mouse
 
 image_angle = point_direction( x, y, mouse_x, mouse_y );
 </string>
