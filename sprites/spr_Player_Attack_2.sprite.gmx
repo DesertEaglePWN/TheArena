@@ -7,8 +7,8 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>4</bbox_left>
-  <bbox_right>127</bbox_right>
+  <bbox_left>17</bbox_left>
+  <bbox_right>122</bbox_right>
   <bbox_top>1</bbox_top>
   <bbox_bottom>126</bbox_bottom>
   <HTile>0</HTile>
@@ -20,7 +20,6 @@
   <width>128</width>
   <height>128</height>
   <frames>
-    <frame index="0">images\spr_Player_Charge_0.png</frame>
-    <frame index="1">images\spr_Player_Charge_1.png</frame>
+    <frame index="0">images\spr_Player_Attack_2_0.png</frame>
   </frames>
 </sprite>

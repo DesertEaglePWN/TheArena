@@ -15,6 +15,7 @@
     <sprite>sprites\spr_Enemy_Idle</sprite>
     <sprite>sprites\spr_Enemy_Attack</sprite>
     <sprite>sprites\spr_Player_Attack</sprite>
+    <sprite>sprites\spr_Player_Attack_2</sprite>
     <sprite>sprites\spr_Player_Charge</sprite>
     <sprite>sprites\spr_Player_Idle</sprite>
     <sprite>sprites\spr_Player_Stomp</sprite>
