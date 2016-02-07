@@ -12,6 +12,13 @@
     <sprite>sprites\spr_Stomp</sprite>
     <sprite>sprites\spr_Punch</sprite>
     <sprite>sprites\spr_psyTest</sprite>
+    <sprite>sprites\spr_Enemy_Idle</sprite>
+    <sprite>sprites\spr_Enemy_Attack</sprite>
+    <sprite>sprites\spr_Player_Attack</sprite>
+    <sprite>sprites\spr_Player_Charge</sprite>
+    <sprite>sprites\spr_Player_Idle</sprite>
+    <sprite>sprites\spr_Player_Stomp</sprite>
+    <sprite>sprites\spr_Sample</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
