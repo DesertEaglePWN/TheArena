@@ -9,7 +9,6 @@
     <sprite>sprites\spr_Player</sprite>
     <sprite>sprites\spr_Human</sprite>
     <sprite>sprites\spr_Spike_Trap</sprite>
-    <sprite>sprites\spr_Stomp</sprite>
     <sprite>sprites\spr_Punch</sprite>
     <sprite>sprites\spr_psyTest</sprite>
     <sprite>sprites\spr_Enemy_Idle</sprite>
@@ -28,6 +27,9 @@
     <script>scripts\script0.gml</script>
     <script>scripts\script1.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\f_score</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_PlayerCharacter</object>
     <object>objects\obj_Human</object>
@@ -39,6 +41,7 @@
     <object>objects\obj_Controller</object>
     <object>objects\obj_Punch</object>
     <object>objects\obj_psytest</object>
+    <object>objects\obj_Wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
