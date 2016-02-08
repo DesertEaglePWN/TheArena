@@ -102,12 +102,9 @@ else
             <kind>1</kind>
             <string>cheat_code = get_string("Enter code", "");
 
-if( cheat_code = "exit")
-{
-    obj_character.x = 0;
-    obj_character.y = 0;
-} else 
-{
+if( cheat_code = "god")
+    obj_PlayerCharacter.god_mode = 1 
+else {
     show_message("Invalid code!");
 }
 </string>

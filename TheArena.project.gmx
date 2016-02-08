@@ -34,7 +34,6 @@
   <objects name="objects">
     <object>objects\obj_PlayerCharacter</object>
     <object>objects\obj_Human</object>
-    <object>objects\obj_Charge</object>
     <object>objects\obj_Stomp</object>
     <object>objects\obj_Spike_Trap</object>
     <object>objects\obj_Enemy_Controller</object>
