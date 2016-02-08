@@ -10,6 +10,7 @@
     <sprite>sprites\spr_Human</sprite>
     <sprite>sprites\spr_Spike_Trap</sprite>
     <sprite>sprites\spr_Punch</sprite>
+    <sprite>sprites\spr_Enemy_Sword</sprite>
     <sprite>sprites\spr_psyTest</sprite>
     <sprite>sprites\spr_Enemy_Idle</sprite>
     <sprite>sprites\spr_Enemy_Attack</sprite>
@@ -42,6 +43,7 @@
     <object>objects\obj_Punch</object>
     <object>objects\obj_psytest</object>
     <object>objects\obj_Wall</object>
+    <object>objects\obj_Enemy_Sword</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
