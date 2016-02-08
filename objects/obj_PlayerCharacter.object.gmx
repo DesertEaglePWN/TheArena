@@ -35,6 +35,8 @@ punch = 0;
 invincible = 0;
 
 god_mode = 0;
+
+
 </string>
           </argument>
         </arguments>
@@ -395,11 +397,11 @@ god_mode = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>movementSpeed</string>
+            <string>canCharge</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>5</string>
+            <string>1</string>
           </argument>
         </arguments>
       </action>
@@ -419,11 +421,11 @@ god_mode = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>canCharge</string>
+            <string>movementSpeed</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>1</string>
+            <string>5</string>
           </argument>
         </arguments>
       </action>
@@ -602,8 +604,13 @@ god_mode = 0;
           <argument>
             <kind>1</kind>
             <string>// Lets the player sprite follow the mouse
+// Added if statment to make player move in fixed direction with charge
+// There is a bug with this. The player idle sprite fails to rotate a few
+// seconds after the charge is over.
 
-image_angle = point_direction( x, y, mouse_x, mouse_y );
+if ( canCharge == 0 ) {
+    image_angle = point_direction( x, y, mouse_x, mouse_y );
+}
 </string>
           </argument>
         </arguments>
@@ -636,7 +643,7 @@ x += movementX;
 y += movementY;
 
 
-// Get input and move the player
+// Get input and move the player. This is another way to do the player movement
 
 /**if( keyboard_check( ord("D") ) ) {
     motion_add( 0 , 1);
