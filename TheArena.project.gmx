@@ -29,6 +29,7 @@
       <sprite>sprites\spr_Player_Stomp</sprite>
     </sprites>
     <sprite>sprites\spr_Wall_2</sprite>
+    <sprite>sprites\spr_End_Wall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -54,6 +55,7 @@
     <object>objects\obj_psytest</object>
     <object>objects\obj_Enemy_Sword</object>
     <object>objects\obj_Wall</object>
+    <object>objects\obj_End_Wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
