@@ -19,6 +19,7 @@
     </sprites>
     <sprites name="Player">
       <sprite>sprites\spr_Player_Idle</sprite>
+      <sprite>sprites\spr_Player_Hurt</sprite>
       <sprite>sprites\spr_Player_Charge</sprite>
       <sprite>sprites\spr_Player_Attack_2</sprite>
       <sprite>sprites\spr_Player_Attack</sprite>

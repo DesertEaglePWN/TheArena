@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Wave setup code, needed variables
+            <string>///Wave Setup
+//Wave setup code, needed variables
 
 wave = 0;
 enemyCount = 5;
@@ -53,12 +54,14 @@ alarm[ 0 ] = room_speed * 5; // 5 seconds until first wave
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// check to see if all enemies are gone. If so, start another wave.
+            <string>///Wave Check
+// check to see if all enemies are gone. If so, start another wave.
 // This alarm is called from the obj_Human destroy event
 
 if( !instance_exists( obj_Human ) ) { // no more enemies exist
-    with( obj_Enemy_Sword ) { // make sure any sword objects are removed
-    instance_destroy(); 
+    with( obj_Enemy_Sword ) // make sure any sword objects are removed
+    { 
+        instance_destroy(); 
     }
     wave += 1;
     enemyCount += 1;
@@ -86,9 +89,11 @@ if( !instance_exists( obj_Human ) ) { // no more enemies exist
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// code to spawn the enemies for the wave
+            <string>///Spawn Wave
+// code to spawn the enemies for the wave
 
-repeat( enemyCount ) {
+repeat( enemyCount ) 
+{
     instance_create( random( room_width ), 250, obj_Human); // create enemy at random position
 }
 </string>
