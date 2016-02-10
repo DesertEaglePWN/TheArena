@@ -28,6 +28,7 @@
       <sprite>sprites\spr_Punch</sprite>
       <sprite>sprites\spr_Player_Stomp</sprite>
     </sprites>
+    <sprite>sprites\spr_Wall_2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
