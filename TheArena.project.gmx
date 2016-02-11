@@ -30,9 +30,11 @@
     </sprites>
     <sprite>sprites\spr_Wall_2</sprite>
     <sprite>sprites\spr_End_Wall</sprite>
+    <sprite>sprites\spr_playbtn</sprite>
+    <sprite>sprites\spr_tutorial</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
+    <background>background\bg_main</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -56,9 +58,12 @@
     <object>objects\obj_Enemy_Sword</object>
     <object>objects\obj_Wall</object>
     <object>objects\obj_End_Wall</object>
+    <object>objects\btn_play</object>
+    <object>objects\btn_howtoplay</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\rm_menu</room>
+    <room>rooms\rm_main</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
