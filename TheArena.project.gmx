@@ -32,6 +32,7 @@
     <sprite>sprites\spr_End_Wall</sprite>
     <sprite>sprites\spr_playbtn</sprite>
     <sprite>sprites\spr_tutorial</sprite>
+    <sprite>sprites\spr_quitbtn</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_main</background>
@@ -60,10 +61,13 @@
     <object>objects\obj_End_Wall</object>
     <object>objects\btn_play</object>
     <object>objects\btn_howtoplay</object>
+    <object>objects\obj_quitbtn</object>
+    <object>objects\obj_Tutorial_Controller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_main</room>
+    <room>rooms\rm_tutorial</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
