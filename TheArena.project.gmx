@@ -4,7 +4,14 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_Player_Punch</sound>
+    <sound>sound\snd_Enemy_Sword_Attack_Hit</sound>
+    <sound>sound\snd_Last_Minute</sound>
+    <sound>sound\snd_Wasteland_Showdown</sound>
+    <sound>sound\snd_Stomp</sound>
+    <sound>sound\snd_Enemy_Sword_Attack_Miss</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Player</sprite>
     <sprite>sprites\spr_Spike_Trap</sprite>
@@ -33,9 +40,16 @@
     <sprite>sprites\spr_playbtn</sprite>
     <sprite>sprites\spr_tutorial</sprite>
     <sprite>sprites\spr_quitbtn</sprite>
+    <sprites name="Cooldowns">
+      <sprite>sprites\spr_Q_CD</sprite>
+      <sprite>sprites\spr_Q_Ready</sprite>
+      <sprite>sprites\spr_E_CD</sprite>
+      <sprite>sprites\spr_E_Ready</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_main</background>
+    <background>background\bkg_highScores</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -51,18 +65,26 @@
     <object>objects\obj_Human</object>
     <object>objects\obj_Stomp</object>
     <object>objects\obj_Spike_Trap</object>
-    <object>objects\obj_Enemy_Controller</object>
-    <object>objects\obj_Controller_Life</object>
-    <object>objects\obj_Controller</object>
     <object>objects\obj_Punch</object>
-    <object>objects\obj_psytest</object>
     <object>objects\obj_Enemy_Sword</object>
     <object>objects\obj_Wall</object>
     <object>objects\obj_End_Wall</object>
-    <object>objects\btn_play</object>
-    <object>objects\btn_howtoplay</object>
-    <object>objects\obj_quitbtn</object>
-    <object>objects\obj_Tutorial_Controller</object>
+    <objects name="Controllers">
+      <object>objects\obj_Controller_Life</object>
+      <object>objects\obj_Controller</object>
+      <object>objects\obj_Enemy_Controller</object>
+      <object>objects\obj_Music_Controller</object>
+      <object>objects\obj_Q</object>
+      <object>objects\obj_E</object>
+    </objects>
+    <objects name="Tutorial">
+      <object>objects\btn_play</object>
+      <object>objects\obj_quitbtn</object>
+      <object>objects\btn_howtoplay</object>
+      <object>objects\obj_Tutorial_Controller</object>
+    </objects>
+    <object>objects\obj_snd_Last_Minute</object>
+    <object>objects\obj_snd_Wasteland_Showdown</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>

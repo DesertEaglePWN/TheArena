@@ -126,7 +126,9 @@ else
 
 if( cheat_code = "god")
     obj_PlayerCharacter.god_mode = 1 
-else {
+else if( cheat_code == "die") {
+    obj_PlayerCharacter.health = 0;
+} else {
     show_message("Invalid code!");
 }
 </string>
