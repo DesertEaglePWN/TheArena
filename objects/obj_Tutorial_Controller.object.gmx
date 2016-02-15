@@ -75,7 +75,47 @@
         <arguments>
           <argument>
             <kind>2</kind>
-            <string>Great! You're ready to play. Press 'ESC' to go back to the menu. </string>
+            <string>Great! You're ready to play.</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>321</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_message</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>2</kind>
+            <string>Your objective? Survive as long as you can. Good luck.</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>224</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_another_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>11</kind>
+            <room>rm_main</room>
           </argument>
         </arguments>
       </action>
@@ -141,7 +181,7 @@
         <arguments>
           <argument>
             <kind>2</kind>
-            <string>This is you.</string>
+            <string>Welcome to the arena. Press 'ESC' at any time to go back to the menu. </string>
           </argument>
         </arguments>
       </action>
@@ -161,7 +201,7 @@
         <arguments>
           <argument>
             <kind>2</kind>
-            <string>You are a minotaur.</string>
+            <string>This is you, a minotaur.</string>
           </argument>
         </arguments>
       </action>
