@@ -1256,7 +1256,7 @@ if (point_distance(x,y, obj_PlayerCharacter.x, obj_PlayerCharacter.y) &gt; 75 &a
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="obj_End_Wall">
+    <event eventtype="4" ename="obj_Wall">
       <action>
         <libid>1</libid>
         <id>116</id>
@@ -1286,7 +1286,7 @@ if (point_distance(x,y, obj_PlayerCharacter.x, obj_PlayerCharacter.y) &gt; 75 &a
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_Wall">
+    <event eventtype="4" ename="obj_End_Wall">
       <action>
         <libid>1</libid>
         <id>116</id>

@@ -63,7 +63,7 @@ alarm[ 0 ] = room_speed * 5; // 5 seconds until first wave
 
 if( !instance_exists( obj_Human ) ) { // no more enemies exist
     wave += 1;
-    enemyCount += 1;
+    enemyCount += 5;
     currentCount = enemyCount;
     alarm[ 0 ] = room_speed * 5; // 5 seconds until next wave
 }
@@ -111,7 +111,7 @@ if( currentCount &gt; 0 )
     }
     
     currentCount = currentCount - 1;
-    alarm[ 0 ] = room_speed * 3;
+    alarm[ 0 ] = room_speed * 2;
 }
 
 
