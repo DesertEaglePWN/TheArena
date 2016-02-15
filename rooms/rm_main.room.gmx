@@ -3,8 +3,8 @@
   <caption></caption>
   <width>2048</width>
   <height>2048</height>
-  <vsnap>32</vsnap>
-  <hsnap>15</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -41,8 +41,8 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="" xview="0" yview="0" wview="2048" hview="2048" xport="0" yport="0" wport="1920" hport="1080" hborder="128" vborder="128" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="obj_PlayerCharacter" xview="512" yview="512" wview="1088" hview="1088" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -53,7 +53,6 @@
   <instances>
     <instance objName="obj_PlayerCharacter" x="1024" y="1024" name="inst_4483A925" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="obj_Enemy_Controller" x="30" y="0" name="inst_2F7F3F46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Controller_Life" x="60" y="0" name="inst_7E60DB2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Controller" x="0" y="0" name="inst_C886B509" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="204" y="704" name="inst_BEEFA607" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="204" y="640" name="inst_C965AC31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -154,8 +153,149 @@
     <instance objName="obj_End_Wall" x="1908" y="295" name="inst_74E75713" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="1745" y="171" name="inst_B2D2DDD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_snd_Wasteland_Showdown" x="105" y="96" name="inst_F8CD32D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Q" x="570" y="64" name="inst_363B93A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_E" x="690" y="64" name="inst_9557069B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="160" y="488" name="inst_032A45FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="120" y="328" name="inst_5E34D771" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="160" y="376" name="inst_99AE4C32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="120" y="552" name="inst_D1D98736" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="216" y="56" name="inst_204DC0AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-60"/>
+    <instance objName="obj_Spectator" x="120" y="432" name="inst_76E9858B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="64" y="200" name="inst_92FA470E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-25"/>
+    <instance objName="obj_Spectator" x="80" y="496" name="inst_A44164C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="200" y="320" name="inst_CE67F3C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="232" y="176" name="inst_31337D36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-65"/>
+    <instance objName="obj_Spectator" x="176" y="232" name="inst_4B0932E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-25"/>
+    <instance objName="obj_Spectator" x="200" y="424" name="inst_373ACE1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="200" y="536" name="inst_1724C2B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="312" y="200" name="inst_1D962013" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="424" y="200" name="inst_0F30DB16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="528" y="200" name="inst_05D1C8D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="128" y="96" name="inst_896A67FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-60"/>
+    <instance objName="obj_Spectator" x="80" y="392" name="inst_5B9C2ED0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="40" y="440" name="inst_6DEC117C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="40" y="832" name="inst_5C34E7DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="200" y="944" name="inst_2A524766" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="200" y="1160" name="inst_A56F251E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="120" y="1272" name="inst_9CA71D20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="200" y="1272" name="inst_7EC861DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="40" y="728" name="inst_ADD3D743" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="160" y="776" name="inst_4B1A74C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="160" y="1104" name="inst_B8E43332" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="160" y="992" name="inst_D11264F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="200" y="728" name="inst_DB0BA738" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="160" y="888" name="inst_4D2EB438" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="200" y="1048" name="inst_F9D3EBDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="80" y="776" name="inst_05FC19A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="120" y="728" name="inst_99EEA701" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="120" y="1048" name="inst_681F9F65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="80" y="1216" name="inst_37AD7C4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="40" y="1048" name="inst_5E48CD5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="40" y="328" name="inst_3DC59797" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="88" y="264" name="inst_2588DF27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="80" y="1328" name="inst_BA2E5D75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="120" y="832" name="inst_7055D805" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="120" y="944" name="inst_EA4A139F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="160" y="1320" name="inst_615F1CAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="40" y="1160" name="inst_49B7F223" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="160" y="1552" name="inst_C15A8889" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="80" y="888" name="inst_C433EF5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="80" y="992" name="inst_9650D76D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="120" y="1160" name="inst_3C70DAEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="80" y="1104" name="inst_5097FD52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="160" y="1216" name="inst_7DB95D07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="80" y="1552" name="inst_03547704" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="40" y="936" name="inst_65E65D69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="40" y="1504" name="inst_EBAF8EE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="200" y="1600" name="inst_22417D3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="120" y="1496" name="inst_014985BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="120" y="1696" name="inst_A42E9726" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="40" y="1272" name="inst_C755B59F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="120" y="1600" name="inst_1B0A028D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="80" y="1648" name="inst_15041977" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="160" y="1744" name="inst_5C8F6228" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="160" y="1648" name="inst_8FD8C3E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="200" y="1704" name="inst_CD51F44B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="40" y="552" name="inst_DADB2577" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="200" y="832" name="inst_757BE854" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="200" y="1496" name="inst_8BE7123B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="40" y="1600" name="inst_383A507B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="40" y="1504" name="inst_6569B44A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="40" y="1696" name="inst_BBB96493" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="40" y="1600" name="inst_EB4566F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="80" y="1744" name="inst_1377EEE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Spectator" x="368" y="160" name="inst_A3EC26B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="480" y="160" name="inst_6536A1AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="368" y="160" name="inst_F8EEBF18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="424" y="120" name="inst_26D1686F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="480" y="160" name="inst_EFDCC997" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="320" y="120" name="inst_376C408F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="384" y="80" name="inst_C73FB8F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="192" y="120" name="inst_EA28BC9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-65"/>
+    <instance objName="obj_Spectator" x="128" y="176" name="inst_C7E5B94C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-25"/>
+    <instance objName="obj_Spectator" x="544" y="120" name="inst_FE1BDA50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="272" y="80" name="inst_6A3C5140" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="480" y="160" name="inst_5890CCB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="488" y="80" name="inst_1472FFE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="544" y="40" name="inst_A268EC1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="440" y="40" name="inst_8E8AEE31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="328" y="40" name="inst_EA019B56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="736" y="200" name="inst_2C7962FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="832" y="200" name="inst_F2126303" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="944" y="200" name="inst_FC09084C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1064" y="200" name="inst_128A57BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="944" y="200" name="inst_A22E82C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1176" y="200" name="inst_7476C562" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1064" y="200" name="inst_800DF625" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1280" y="200" name="inst_276763FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="784" y="160" name="inst_316DD3A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="896" y="160" name="inst_EE1A0083" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="784" y="160" name="inst_E398D828" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1008" y="160" name="inst_F522130B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="896" y="160" name="inst_C9C27550" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1120" y="160" name="inst_A00537E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1224" y="160" name="inst_94792670" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1320" y="160" name="inst_6471DADA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1176" y="120" name="inst_8FF2F4C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1064" y="120" name="inst_4263E21D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1272" y="120" name="inst_CF583E6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="840" y="120" name="inst_B885B68C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1064" y="120" name="inst_96F59FFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="944" y="120" name="inst_19630F5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="728" y="120" name="inst_447630A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="784" y="80" name="inst_2B1DB7CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="888" y="80" name="inst_1A252D0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1008" y="80" name="inst_F9B18034" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1128" y="80" name="inst_7A9E92CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="840" y="40" name="inst_70481E8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1312" y="80" name="inst_563365BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1224" y="80" name="inst_C68FE665" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="720" y="40" name="inst_8CAA9A2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="952" y="40" name="inst_FF7F2574" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1072" y="40" name="inst_5C2E3011" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1176" y="40" name="inst_F664E343" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1272" y="40" name="inst_F48A4098" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1624" y="200" name="inst_DE58B7AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1496" y="200" name="inst_896C50C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1560" y="160" name="inst_8A0DC3E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1728" y="192" name="inst_9336716C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1680" y="152" name="inst_AFB66531" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1488" y="120" name="inst_0DC2DCA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1616" y="120" name="inst_C50C47A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1552" y="80" name="inst_5B2B7CF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1488" y="40" name="inst_B8571FE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1816" y="176" name="inst_24B8C3CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-120"/>
+    <instance objName="obj_Spectator" x="1920" y="96" name="inst_71907D22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-120"/>
+    <instance objName="obj_Spectator" x="1832" y="48" name="inst_5DA68257" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-120"/>
+    <instance objName="obj_Spectator" x="1616" y="40" name="inst_ABEB7FDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1752" y="120" name="inst_0996A598" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1680" y="80" name="inst_FDC02AD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1744" y="40" name="inst_9931802E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_Spectator" x="1608" y="336" name="inst_3E82348F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-120"/>
+    <instance objName="obj_Spectator" x="1872" y="224" name="inst_1E2D18FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-150"/>
+    <instance objName="obj_Spectator" x="1872" y="160" name="inst_5FB573E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-135"/>
+    <instance objName="obj_Spectator" x="1976" y="168" name="inst_CF82DF55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-150"/>
+    <instance objName="obj_Spectator" x="1816" y="96" name="inst_4D727564" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-120"/>
+    <instance objName="obj_Spectator" x="1944" y="216" name="inst_C4C38054" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-150"/>
+    <instance objName="obj_Controller_GUI" x="64" y="0" name="inst_4EBE1AA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_main" x="1024" y="512" w="256" h="256" xo="512" yo="512" id="10001139" name="inst_A9E7035E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

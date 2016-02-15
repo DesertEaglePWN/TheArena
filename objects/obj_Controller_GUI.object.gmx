@@ -223,6 +223,62 @@ if i_d == name
       </action>
       <action>
         <libid>1</libid>
+        <id>524</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_color</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>13</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>511</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_draw_rectangle</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>view_xview + 10</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>view_yview + 10</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>view_xview + 360</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>view_xview + 90</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>526</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -242,6 +298,26 @@ if i_d == name
           <argument>
             <kind>4</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>524</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_color</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>13</kind>
+            <string>16777215</string>
           </argument>
         </arguments>
       </action>
@@ -509,7 +585,7 @@ if i_d == name
           </argument>
           <argument>
             <kind>0</kind>
-            <string>view_xview + 256 + 64</string>
+            <string>view_xview + 256 + 32</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -555,7 +631,7 @@ if i_d == name
           </argument>
           <argument>
             <kind>0</kind>
-            <string>view_xview + 256 + 64</string>
+            <string>view_xview + 256 + 32</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -613,11 +689,11 @@ if i_d == name
           </argument>
           <argument>
             <kind>4</kind>
-            <string>0</string>
+            <string>1</string>
           </argument>
           <argument>
             <kind>4</kind>
-            <string>12</string>
+            <string>6</string>
           </argument>
         </arguments>
       </action>

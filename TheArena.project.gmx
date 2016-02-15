@@ -16,8 +16,6 @@
     <sprite>sprites\spr_Player</sprite>
     <sprite>sprites\spr_Spike_Trap</sprite>
     <sprite>sprites\spr_psyTest</sprite>
-    <sprite>sprites\spr_TopLeftCorner</sprite>
-    <sprite>sprites\spr_Wall</sprite>
     <sprites name="HumanEnemies">
       <sprite>sprites\spr_Enemy_Idle</sprite>
       <sprite>sprites\spr_Enemy_Attack</sprite>
@@ -34,9 +32,10 @@
     <sprites name="Effects">
       <sprite>sprites\spr_Punch</sprite>
       <sprite>sprites\spr_Player_Stomp</sprite>
+      <sprite>sprites\spr_Viscera_Decal1</sprite>
+      <sprite>sprites\spr_Viscera_Decal2</sprite>
+      <sprite>sprites\spr_StompDecal</sprite>
     </sprites>
-    <sprite>sprites\spr_Wall_2</sprite>
-    <sprite>sprites\spr_End_Wall</sprite>
     <sprite>sprites\spr_playbtn</sprite>
     <sprite>sprites\spr_tutorial</sprite>
     <sprite>sprites\spr_quitbtn</sprite>
@@ -45,6 +44,17 @@
       <sprite>sprites\spr_Q_Ready</sprite>
       <sprite>sprites\spr_E_CD</sprite>
       <sprite>sprites\spr_E_Ready</sprite>
+    </sprites>
+    <sprite>sprites\spr_Spectator</sprite>
+    <sprites name="Arena">
+      <sprite>sprites\spr_VomitoriumTopLeft</sprite>
+      <sprite>sprites\spr_VomitoriumTopRight</sprite>
+      <sprite>sprites\spr_VomitoriumBotRight</sprite>
+      <sprite>sprites\spr_VomitoriumBotLeft</sprite>
+      <sprite>sprites\spr_TopLeftCorner</sprite>
+      <sprite>sprites\spr_Wall</sprite>
+      <sprite>sprites\spr_Wall_2</sprite>
+      <sprite>sprites\spr_End_Wall</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -61,16 +71,9 @@
     <font>fonts\f_score</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_PlayerCharacter</object>
-    <object>objects\obj_Human</object>
-    <object>objects\obj_Stomp</object>
     <object>objects\obj_Spike_Trap</object>
-    <object>objects\obj_Punch</object>
-    <object>objects\obj_Enemy_Sword</object>
-    <object>objects\obj_Wall</object>
-    <object>objects\obj_End_Wall</object>
     <objects name="Controllers">
-      <object>objects\obj_Controller_Life</object>
+      <object>objects\obj_Controller_GUI</object>
       <object>objects\obj_Controller</object>
       <object>objects\obj_Enemy_Controller</object>
       <object>objects\obj_Music_Controller</object>
@@ -85,6 +88,24 @@
     </objects>
     <object>objects\obj_snd_Last_Minute</object>
     <object>objects\obj_snd_Wasteland_Showdown</object>
+    <objects name="Enemies">
+      <object>objects\obj_Human</object>
+      <object>objects\obj_Enemy_Sword</object>
+    </objects>
+    <objects name="Player">
+      <object>objects\obj_PlayerCharacter</object>
+      <object>objects\obj_Stomp</object>
+      <object>objects\obj_Punch</object>
+    </objects>
+    <objects name="Effects">
+      <object>objects\obj_Viscera_Decal</object>
+      <object>objects\obj_Stomp_Decal</object>
+    </objects>
+    <objects name="Arena">
+      <object>objects\obj_End_Wall</object>
+      <object>objects\obj_Spectator</object>
+      <object>objects\obj_Wall</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
