@@ -111,7 +111,7 @@ if( currentCount &gt; 0 )
     }
     
     currentCount = currentCount - 1;
-    alarm[ 0 ] = room_speed * 2;
+    alarm[ 0 ] = room_speed * 1;
 }
 
 
