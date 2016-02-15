@@ -607,7 +607,7 @@ viscera.depth = depth+5; //ensure the decal is underneath the downed enemy
             <kind>1</kind>
             <string>///Reset Speed
 // Reset the speed of the Human
-speed += 15;
+speed += 20;
 </string>
           </argument>
         </arguments>
@@ -652,7 +652,7 @@ speed += 15;
             <kind>1</kind>
             <string>///Reset Speed
 // Reset the speed of the Human
-speed += 30;
+speed += 50;
 </string>
           </argument>
         </arguments>
@@ -697,7 +697,7 @@ speed += 30;
             <kind>1</kind>
             <string>///Reset Speed
 // Reset the speed of the Human
-speed += 20;
+speed += 30;
 </string>
           </argument>
         </arguments>
@@ -1384,7 +1384,7 @@ if (point_distance(x,y, obj_PlayerCharacter.x, obj_PlayerCharacter.y) &gt; 75 &a
             <string>///Punch Knockback
 // Go flying back for a bit when you hit the player character.
 knockedBack = 1;
-speed = -20;
+speed = -30;
 alarm[0] = 5;
 
 
@@ -1531,7 +1531,7 @@ alarm[0] = 5;
             <string>///Stomp Knockback
 // Go flying back for a bit when you hit the player character.
 knockedBack = 1;
-speed = -30;
+speed = -50;
 alarm[1] = 5;
 
 
@@ -1665,7 +1665,7 @@ alarm[1] = 5;
 // Go flying back for a bit when you hit the player character.
 
 knockedBack = 1;
-speed = -15;
+speed = -20;
 alarm[2] = 5;
 
 
@@ -1722,6 +1722,30 @@ alarm[2] = 5;
           <argument>
             <kind>4</kind>
             <string>4</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>human_health</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>-50</string>
           </argument>
         </arguments>
       </action>
