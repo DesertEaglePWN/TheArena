@@ -11,111 +11,85 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>213</id>
+        <kind>0</kind>
         <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <isquestion>-1</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if_sound</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>///Wave Setup
-//Wave setup code, needed variables
-
-wave = 0;
-enemyCount = 5;
-currentCount = enemyCount;
-
-spawnHuman = 1;
-
-alarm[ 0 ] = room_speed * 5; // 5 seconds until first wave
-</string>
+            <kind>6</kind>
+            <sound>snd_Last_Minute</sound>
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="2" enumb="1">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>212</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_end_sound</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>///Wave Check
-// check to see if all enemies are gone. If so, start another wave.
-// [This alarm is called from the obj_Human destroy event]
-
-if( !instance_exists( obj_Human ) ) { // no more enemies exist
-    wave += 1;
-    enemyCount += 5;
-    currentCount = enemyCount;
-    alarm[ 0 ] = room_speed * 5; // 5 seconds until next wave
-}
-</string>
+            <kind>6</kind>
+            <sound>snd_Last_Minute</sound>
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>213</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if_sound</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>-1</isnot>
+        <arguments>
+          <argument>
+            <kind>6</kind>
+            <sound>snd_Wasteland_Showdown</sound>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>211</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_sound</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>///Spawn Wave
-// code to spawn the enemies for the wave
-
-if( currentCount &gt; 0 ) 
-{
-    //var spawnHuman = irandom_range( 1, 4 );
-    
-    if ( spawnHuman == 1 ) {
-        instance_create( 255, 1760, obj_Human);
-        spawnHuman = 2;
-    } else if ( spawnHuman == 2 ) {
-        instance_create( 1770, 1760, obj_Human);
-        spawnHuman = 3;
-    } else if ( spawnHuman == 3 ) {
-        instance_create( 1770, 255, obj_Human);
-        spawnHuman = 4;
-    } else if ( spawnHuman == 4 ) {
-        instance_create( 255, 255, obj_Human);
-        spawnHuman = 1;
-    }
-    
-    currentCount = currentCount - 1;
-    alarm[ 0 ] = room_speed * 2;
-}
-
-
-</string>
+            <kind>6</kind>
+            <sound>snd_Wasteland_Showdown</sound>
+          </argument>
+          <argument>
+            <kind>3</kind>
+            <string>1</string>
           </argument>
         </arguments>
       </action>

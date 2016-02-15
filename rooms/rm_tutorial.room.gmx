@@ -52,7 +52,6 @@
   </views>
   <instances>
     <instance objName="obj_PlayerCharacter" x="1020" y="640" name="inst_4483A925" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="obj_Controller_Life" x="60" y="0" name="inst_7E60DB2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Controller" x="0" y="0" name="inst_C886B509" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="204" y="704" name="inst_BEEFA607" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="204" y="640" name="inst_C965AC31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -149,6 +148,8 @@
     <instance objName="obj_End_Wall" x="1755" y="171" name="inst_78CA1C5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_End_Wall" x="370" y="171" name="inst_5637CA88" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Tutorial_Controller" x="30" y="0" name="inst_702B58B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Q" x="300" y="32" name="inst_D7030890" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_E" x="420" y="32" name="inst_A941B0FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_main" x="1024" y="512" w="256" h="256" xo="512" yo="512" id="10001139" name="inst_A9E7035E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

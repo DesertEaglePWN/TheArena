@@ -21,6 +21,7 @@
       <sprite>sprites\spr_Enemy_Attack</sprite>
       <sprite>sprites\spr_Enemy_Sword</sprite>
       <sprite>sprites\spr_Human</sprite>
+      <sprite>sprites\spr_Enemy_Armor_Idle</sprite>
     </sprites>
     <sprites name="Player">
       <sprite>sprites\spr_Player_Idle</sprite>
