@@ -714,7 +714,7 @@ viscera.depth = depth+5; //ensure the decal is underneath the downed enemy
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>room_speed*irandom_range(1,3)</string>
+            <string>room_speed*irandom_range(1,2)</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1009,7 +1009,7 @@ image_angle = direction;
 
 if (point_distance(x,y, obj_PlayerCharacter.x, obj_PlayerCharacter.y) &gt; 75 &amp;&amp; !knockedBack)
 {
-    mp_potential_step( obj_PlayerCharacter.x, obj_PlayerCharacter.y, 2, false);
+    mp_potential_step( obj_PlayerCharacter.x, obj_PlayerCharacter.y, 3, false);
 }
 
 </string>
@@ -1794,59 +1794,49 @@ if (point_distance(x,y, obj_PlayerCharacter.x, obj_PlayerCharacter.y) &gt; 75 &a
     <event eventtype="4" ename="obj_Wall">
       <action>
         <libid>1</libid>
-        <id>116</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move_contact</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>direction</string>
+            <kind>1</kind>
+            <string>x</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>10</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
+            <string>xprevious</string>
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="4" ename="obj_End_Wall">
       <action>
         <libid>1</libid>
-        <id>116</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move_contact</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>direction</string>
+            <kind>1</kind>
+            <string>y</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>10</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
+            <string>yprevious</string>
           </argument>
         </arguments>
       </action>

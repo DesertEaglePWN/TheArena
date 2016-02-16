@@ -103,10 +103,10 @@ if( currentCount &gt; 0 )
         instance_create( 1770, 1760, obj_Human);
         spawnHuman = 3;
     } else if ( spawnHuman == 3 ) {
-        instance_create( 1770, 255, obj_Human);
+        instance_create( 1760, 265, obj_Human);
         spawnHuman = 4;
     } else if ( spawnHuman == 4 ) {
-        instance_create( 255, 255, obj_Human);
+        instance_create( 265, 265, obj_Human);
         spawnHuman = 1;
     }
     

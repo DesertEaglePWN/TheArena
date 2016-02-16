@@ -102,12 +102,9 @@ game_end();
           <argument>
             <kind>1</kind>
             <string>// Toggles window size between Full and Window
-if window_get_fullscreen()
-{
+if window_get_fullscreen(){
     window_set_fullscreen(false);
-}
-else 
-{
+} else {
     window_set_fullscreen(true)
 }
 </string>
@@ -176,10 +173,12 @@ else
             <kind>1</kind>
             <string>cheat_code = get_string("Enter code", "");
 
-if( cheat_code = "god")
+if( cheat_code = "god"){
     obj_PlayerCharacter.god_mode = 1 
-else if( cheat_code == "die") {
+    show_message("God Mode!");
+} else if( cheat_code == "die") {
     obj_PlayerCharacter.health = 0;
+    show_message("You chose death");
 } else {
     show_message("Invalid code!");
 }

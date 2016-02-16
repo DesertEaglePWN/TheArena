@@ -13,7 +13,6 @@
     <sound>sound\snd_Enemy_Sword_Attack_Miss</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_Player</sprite>
     <sprite>sprites\spr_Spike_Trap</sprite>
     <sprite>sprites\spr_psyTest</sprite>
     <sprites name="HumanEnemies">
@@ -55,7 +54,6 @@
       <sprite>sprites\spr_VomitoriumBotLeft</sprite>
       <sprite>sprites\spr_TopLeftCorner</sprite>
       <sprite>sprites\spr_Wall</sprite>
-      <sprite>sprites\spr_Wall_2</sprite>
       <sprite>sprites\spr_End_Wall</sprite>
     </sprites>
   </sprites>
