@@ -14,7 +14,6 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Spike_Trap</sprite>
-    <sprite>sprites\spr_psyTest</sprite>
     <sprites name="HumanEnemies">
       <sprite>sprites\spr_Enemy_Idle</sprite>
       <sprite>sprites\spr_Enemy_Attack</sprite>
@@ -37,16 +36,12 @@
       <sprite>sprites\spr_Viscera_Decal2</sprite>
       <sprite>sprites\spr_StompDecal</sprite>
     </sprites>
-    <sprite>sprites\spr_playbtn</sprite>
-    <sprite>sprites\spr_tutorial</sprite>
-    <sprite>sprites\spr_quitbtn</sprite>
     <sprites name="Cooldowns">
       <sprite>sprites\spr_Q_CD</sprite>
       <sprite>sprites\spr_Q_Ready</sprite>
       <sprite>sprites\spr_E_CD</sprite>
       <sprite>sprites\spr_E_Ready</sprite>
     </sprites>
-    <sprite>sprites\spr_Spectator</sprite>
     <sprites name="Arena">
       <sprite>sprites\spr_VomitoriumTopLeft</sprite>
       <sprite>sprites\spr_VomitoriumTopRight</sprite>
@@ -55,6 +50,12 @@
       <sprite>sprites\spr_TopLeftCorner</sprite>
       <sprite>sprites\spr_Wall</sprite>
       <sprite>sprites\spr_End_Wall</sprite>
+      <sprite>sprites\spr_Spectator</sprite>
+    </sprites>
+    <sprites name="Buttons">
+      <sprite>sprites\spr_playbtn</sprite>
+      <sprite>sprites\spr_tutorial</sprite>
+      <sprite>sprites\spr_quitbtn</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -79,11 +80,6 @@
       <object>objects\obj_Music_Controller</object>
       <object>objects\obj_Q</object>
       <object>objects\obj_E</object>
-    </objects>
-    <objects name="Tutorial">
-      <object>objects\btn_play</object>
-      <object>objects\obj_quitbtn</object>
-      <object>objects\btn_howtoplay</object>
       <object>objects\obj_Tutorial_Controller</object>
     </objects>
     <object>objects\obj_snd_Last_Minute</object>
@@ -105,6 +101,11 @@
       <object>objects\obj_End_Wall</object>
       <object>objects\obj_Spectator</object>
       <object>objects\obj_Wall</object>
+    </objects>
+    <objects name="Button">
+      <object>objects\btn_play</object>
+      <object>objects\obj_quitbtn</object>
+      <object>objects\btn_howtoplay</object>
     </objects>
   </objects>
   <rooms name="rooms">
