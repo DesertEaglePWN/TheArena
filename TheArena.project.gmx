@@ -62,7 +62,10 @@
     <background>background\bg_main</background>
     <background>background\bkg_highScores</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path_trap_2</path>
+    <path>paths\path_trap</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\script0.gml</script>
     <script>scripts\script1.gml</script>
@@ -73,6 +76,7 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_Spike_Trap</object>
+    <object>objects\obj_Spike_Trap_2</object>
     <objects name="Controllers">
       <object>objects\obj_Controller_GUI</object>
       <object>objects\obj_Controller</object>
