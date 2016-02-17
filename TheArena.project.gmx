@@ -62,6 +62,7 @@
       <sprite>sprites\spr_HSbtn</sprite>
       <sprite>sprites\spr_tutorial</sprite>
       <sprite>sprites\spr_quitbtn</sprite>
+      <sprite>sprites\spr_Game_Name</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -117,6 +118,7 @@
       <object>objects\obj_HSbtn</object>
       <object>objects\obj_quitbtn</object>
       <object>objects\btn_howtoplay</object>
+      <object>objects\btn_Name</object>
     </objects>
   </objects>
   <rooms name="rooms">

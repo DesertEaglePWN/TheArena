@@ -58,6 +58,7 @@ window_set_cursor(cr_default);</code>
     <instance objName="obj_snd_Last_Minute" x="544" y="512" name="inst_A18025F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Controller" x="576" y="672" name="inst_004A50D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_HSbtn" x="1024" y="1088" name="inst_87FF2B17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="btn_Name" x="1017" y="224" name="inst_FA3F9522" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
