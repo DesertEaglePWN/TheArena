@@ -1288,6 +1288,14 @@ if (canCharge != -1 &amp;&amp; canStomp != -1) //If player is not charging or st
     movementY = keyboard_check(ord('W'))* -movementSpeed + keyboard_check(ord('S'))*movementSpeed;   
     x += movementX;
     y += movementY;
+    
+    if (distance_to_object(obj_Wall) &lt; 16 || distance_to_object(obj_Wall) &lt;16)
+    {
+        //if too close to wall, reset position
+        x -= movementX;
+        y -= movementY;
+        speed = 0;
+    }
 }
 else //Player is charging
 {
