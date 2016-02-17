@@ -16,10 +16,12 @@
     <sprite>sprites\spr_Spike_Trap</sprite>
     <sprites name="HumanEnemies">
       <sprite>sprites\spr_Enemy_Idle</sprite>
+      <sprite>sprites\spr_Enemy_Hurt</sprite>
       <sprite>sprites\spr_Enemy_Attack</sprite>
       <sprite>sprites\spr_Enemy_Sword</sprite>
       <sprite>sprites\spr_Human</sprite>
       <sprite>sprites\spr_Enemy_Helment_Idle</sprite>
+      <sprite>sprites\spr_Enemy_Helmet_Hurt</sprite>
       <sprite>sprites\spr_Enemy_Helment_Attack</sprite>
     </sprites>
     <sprites name="Player">

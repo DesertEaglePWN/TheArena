@@ -431,7 +431,7 @@ if i_d == name
           </argument>
           <argument>
             <kind>0</kind>
-            <string>view_xview + 256</string>
+            <string>view_xview + 240</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -477,7 +477,7 @@ if i_d == name
           </argument>
           <argument>
             <kind>0</kind>
-            <string>view_xview + 256</string>
+            <string>view_xview + 240</string>
           </argument>
           <argument>
             <kind>0</kind>
