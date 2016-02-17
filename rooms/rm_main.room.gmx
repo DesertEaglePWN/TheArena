@@ -433,7 +433,6 @@
     <instance objName="obj_Spectator" x="520" y="1843" name="inst_82E93EAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_Spectator" x="301" y="1844" name="inst_85682604" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_Spectator" x="700" y="1843" name="inst_2F4EBA2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="obj_Spectator" x="681" y="1888" name="inst_F33CD3B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_Spike_Trap" x="384" y="384" name="inst_24495641" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Spike_Trap_2" x="1664" y="1728" name="inst_4E771459" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
