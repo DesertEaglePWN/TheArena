@@ -11,6 +11,9 @@
     <sound>sound\snd_Wasteland_Showdown</sound>
     <sound>sound\snd_Stomp</sound>
     <sound>sound\snd_Enemy_Sword_Attack_Miss</sound>
+    <sound>sound\snd_Charge</sound>
+    <sound>sound\snd_Enemy_Hurt</sound>
+    <sound>sound\snd_Spike_Trap</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Spike_Trap</sprite>
@@ -56,6 +59,7 @@
     </sprites>
     <sprites name="Buttons">
       <sprite>sprites\spr_playbtn</sprite>
+      <sprite>sprites\spr_HSbtn</sprite>
       <sprite>sprites\spr_tutorial</sprite>
       <sprite>sprites\spr_quitbtn</sprite>
     </sprites>
@@ -77,16 +81,14 @@
     <font>fonts\f_score</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_Spike_Trap</object>
-    <object>objects\obj_Spike_Trap_2</object>
     <objects name="Controllers">
       <object>objects\obj_Controller_GUI</object>
       <object>objects\obj_Controller</object>
       <object>objects\obj_Enemy_Controller</object>
-      <object>objects\obj_Music_Controller</object>
       <object>objects\obj_Q</object>
       <object>objects\obj_E</object>
       <object>objects\obj_Tutorial_Controller</object>
+      <object>objects\obj_Game_Over</object>
     </objects>
     <object>objects\obj_snd_Last_Minute</object>
     <object>objects\obj_snd_Wasteland_Showdown</object>
@@ -104,12 +106,15 @@
       <object>objects\obj_Stomp_Decal</object>
     </objects>
     <objects name="Arena">
+      <object>objects\obj_Spike_Trap_2</object>
       <object>objects\obj_End_Wall</object>
       <object>objects\obj_Spectator</object>
       <object>objects\obj_Wall</object>
+      <object>objects\obj_Spike_Trap</object>
     </objects>
     <objects name="Button">
       <object>objects\btn_play</object>
+      <object>objects\obj_HSbtn</object>
       <object>objects\obj_quitbtn</object>
       <object>objects\btn_howtoplay</object>
     </objects>
@@ -118,6 +123,7 @@
     <room>rooms\rm_menu</room>
     <room>rooms\rm_main</room>
     <room>rooms\rm_tutorial</room>
+    <room>rooms\rm_game_over</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -84,6 +84,22 @@ game_end();
         </arguments>
       </action>
     </event>
+    <event eventtype="5" enumb="116">
+      <action>
+        <libid>1</libid>
+        <id>707</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_highscore_clear</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
     <event eventtype="5" enumb="115">
       <action>
         <libid>1</libid>
@@ -174,11 +190,18 @@ if window_get_fullscreen(){
             <string>cheat_code = get_string("Enter code", "");
 
 if( cheat_code = "god"){
-    obj_PlayerCharacter.god_mode = 1 
-    show_message("God Mode!");
+    if(obj_PlayerCharacter.god_mode == 0){
+        obj_PlayerCharacter.god_mode = 1; 
+        show_message("God Mode!");
+    } else {
+        obj_PlayerCharacter.god_mode = 0; 
+        show_message("Normal!");
+    }
 } else if( cheat_code == "die") {
     obj_PlayerCharacter.health = 0;
     show_message("You chose death");
+} else if( cheat_code == "highscore"){
+    room_goto(rm_game_over);
 } else {
     show_message("Invalid code!");
 }
