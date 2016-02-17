@@ -27,9 +27,6 @@
             <kind>1</kind>
             <string>draw_highscore(150, 150, room_width - 200, room_height - 200);
 draw_set_color(c_black);
-
-
-draw_text(x+200,y+500,obj_Controller.max);
 </string>
           </argument>
         </arguments>
